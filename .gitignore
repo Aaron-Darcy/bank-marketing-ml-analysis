@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python environment / secrets
+.env
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Keep data folder tracked, but optionally ignore large raw files
+# Uncomment below if needed
+# data/*.csv
+
+# Results that are generated
+results/figures/*
+results/imported_figures/*
+
+# Keep folders in git even if empty
+!results/figures/.gitkeep
+!results/imported_figures/.gitkeep
