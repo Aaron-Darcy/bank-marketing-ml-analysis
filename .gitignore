@@ -39,10 +39,17 @@ dist/
 # Uncomment below if needed
 # data/*.csv
 
-# Results that are generated
-results/figures/*
-results/imported_figures/*
+# Generated figures
+figures/*
+!figures/.gitkeep
 
-# Keep folders in git even if empty
-!results/figures/.gitkeep
-!results/imported_figures/.gitkeep
+# Raw dataset - intentionally tracked
+# bank-additional-full.csv is committed so the notebooks run out of the box
+
+# Generated splits and saved models - excluded as they are produced by running the notebooks
+data/*.pkl
+data/X_train.csv
+data/X_test.csv
+data/y_train.csv
+data/y_test.csv
+data/feature_names.csv
