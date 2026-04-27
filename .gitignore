@@ -46,8 +46,7 @@ figures/*
 # Raw dataset - intentionally tracked
 # bank-additional-full.csv is committed so the notebooks run out of the box
 
-# Generated splits and saved models - excluded as they are produced by running the notebooks
-data/*.pkl
+# Generated splits - excluded as they are produced by running the notebooks
 data/X_train.csv
 data/X_test.csv
 data/y_train.csv
