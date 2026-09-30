@@ -23,12 +23,15 @@ The target variable is `y` — whether the client subscribed to a term deposit (
 ```
 bank-marketing-ml-analysis/
 ├── data/
-│   └── bank-full.csv          # Raw dataset (included so notebooks run out of the box)
+│   ├── bank-full.csv          # Raw dataset (included so notebooks run out of the box)
+│   └── *_model.pkl            # Trained RF / GBT / SVM models (written by notebook 02)
 ├── notebooks/
 │   ├── 01_preprocessing_eda.ipynb   # Preprocessing and exploratory data analysis
 │   ├── 02_modelling.ipynb           # Dimensionality reduction and model training
 │   └── 03_evaluation.ipynb          # Model evaluation and comparison
 ├── figures/                   # Generated plots (created when notebooks are run)
+├── Bank Marketting Campaing Sub Predection.pdf   # Project presentation
+├── Project Briefing Document.pdf                 # Assignment brief
 ├── requirements.txt
 └── README.md
 ```
